@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Área e Perímetro</title>
+
+    <link rel="stylesheet" href="estilo.css" />
+
+</head>
+<body>
+    <!--optamos por um design simples e eficaz,seguindo aquilo que nos foi ensinado durante as aulas     -->
+    <div id="container">
+<!----divisores da nav  bar--> 
+        <div id="navbar">
+            <ul>
+               
+                <li>
+                    <a href="index.html" target="_self" title="Página Inicial">Home</a>
+                </li>
+                <li>
+                    <a href="quem somos.html" target="_self" title="Todas as Fotos">quem somos</a>
+                </li>
+                <li>
+                  <p id="hol">  place holder </p>
+                    </li>
+                    <li>
+                       <p id="hol"> place holder</p>
+                        </li>
+                <li>
+                 <div>   <img src="logo.jpg" id="imagem"/></div>
+                 </li>
+                
+            </ul>
+        </div>
+	
+    <h1>Calculadora de Área e Perímetro</h1>
+
+
+    <form> 
+        <label for="data">Data📆</label>
+        <input type="date" id="data">
+        <br>
+       
+        <label for="nome">Nome</label>
+        <input type="text" id="nome">
+        <br>
+      
+
+        <label for="tipo">Tipo</label>
+        <select name="tipo" id="tipo">
+            <option value="" selected disabled>Selecione o Tipo...</option>
+            <option value="objeto">Objeto</option>
+            <option value="terreno">Terreno</option>
+            <option value="indefinido">Indefinido</option>
+        </select>
+
+        <label for="comprimento">Comprimento:</label>
+        <input type="number" id="comprimento">
+        <br>
+
+        <label for="largura">Largura:</label>
+        <input type="number" id="largura">
+        <br>
+
+        <button onclick="calcular()">Calcular</button>
+        <br>
+        <label for="box">caixa</label>
+        <input type="checkbox" id="box">
+        <br>
+        <p>Área: <span id="resultadoArea"></span></p>
+        <p>Perímetro: <span id="resultadoPerimetro"></span></p>
+
+       
+    </form>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

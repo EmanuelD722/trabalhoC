@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600&display=swap");
+
+
+/* optamos por escolher um design simples e minimalista,centralizando a atenção do site ao projeto principal 
+para que entregar aquilo que prometeu */
+
+
+label{
+    display: block;
+    margin-bottom: 0%;
+    color: #020202;
+}
+
+body{
+    
+    font-family: 'AR One Sans', sans-serif;
+    display: flex;
+    margin: 2;
+    padding: 0;
+    justify-content:center;
+    /*align-items: center;*/
+
+    width: 100%;
+    
+    margin-left: 0%;
+    margin-bottom: 10%;
+    padding: 5px;
+    background:lightgray;
+   
+}
+
+#p1{font-size: 16px;}
+
+
+
+#imagem{
+width: 100px;
+height: 50px;
+margin-left: auto;}
+
+#texto{margin-left: 30px;
+align-items: center;
+   width:450px;
+   }
+
+#data{width: 300px;
+align-items: center;
+}
+#nome{width: 300px;}
+#tipo{width: 300px;}
+#comprimento{width: 300px; ;}
+#largura{width: 300px;}
+form{ float: center;   
+    
+    margin:0 auto;
+    padding: 54px;
+    margin-right: 100px;
+    margin-left: 100px ;
+    background-color: #c17fc2;
+    border-radius: 18px; 
+    /*ajusta as bordas da caixa*/
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+    align-items: center;/* centraliza os elementos da caixa*/
+
+}
+
+
+#hol { visibility: hidden;}
+
+h1{
+    color: #000000;
+    text-align: center;
+    text-shadow: 0 0 16px #4b4545;
+}
+button:hover{
+    background-color: #940e90;
+    color: #75dae3;
+}
+
+
+
+
+#topo{   
+	width: 100%;
+	margin-bottom: 1%;
+}
+#conteudo{
+	width: 100%;
+	
+	float: left;
+	background: white;
+}
+
+#navbar{
+    margin: 0;
+    position: relative;
+	width: 100%;
+    top: 0;
+	float: top;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#navbar ul{
+	list-style: none;
+	/*esconder a barra de rolagem*/
+	overflow: hidden;
+	background: #333;
+}
+
+#navbar li{
+	float: left;
+	border-right: 1px solid #555;
+}
+
+#navbar li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#navbar li a:hover{
+	background: red;
+	color: whitesmoke;
+}
